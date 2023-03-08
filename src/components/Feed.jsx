@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Box, Stack, Typography } from "@mui/material";
+import { fetchFromAPI } from "../utils/fetchFromAPI";
 
 
 import { Sidebar } from "./";
@@ -8,6 +9,10 @@ const Feed = () => {
 
   // define state for selected category
   const [selectedCategory, setSelectedCategory] = useState("New");
+
+  const testHandler = () => {
+    fetchFromAPI('search?q=music&maxResults=50')
+  }
 
 
   return (
@@ -57,6 +62,7 @@ const Feed = () => {
         </Typography>
 
         {/* add video logic here once videos component created */}
+        <button onClick={testHandler} >press here</button>
 
       </Box>
 
