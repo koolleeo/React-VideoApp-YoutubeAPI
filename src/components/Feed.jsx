@@ -9,6 +9,7 @@ const Feed = () => {
   // define state for selected category
   const [selectedCategory, setSelectedCategory] = useState("New");
 
+
   return (
 
     <Stack sx={{ 
@@ -58,7 +59,7 @@ const Feed = () => {
         {/* add video logic here once videos component created */}
 
       </Box>
- 
+
     </Stack>
   );
 };
