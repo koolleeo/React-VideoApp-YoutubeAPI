@@ -3,17 +3,24 @@ import { Box, Stack, Typography } from "@mui/material";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
 
 
-import { Sidebar } from "./";
+import { Videos, Sidebar } from "./";
 
 const Feed = () => {
 
   // define state for selected category
   const [selectedCategory, setSelectedCategory] = useState("New");
 
-  const testHandler = () => {
-    fetchFromAPI('search?q=music&maxResults=50')
-  }
+  // define state for selected videos (based on selected category)
+  const [videos, setVideos] = useState(null);
 
+// :TODO: commented out to prevent API calls on refresh during development
+
+  // useEffect(() => {
+  //   setVideos(null);
+
+  //   fetchFromAPI(`search?part=snippet&q=${selectedCategory}`)
+  //     .then((data) => setVideos(data.items))
+  //   }, [selectedCategory]);
 
   return (
 
@@ -61,8 +68,9 @@ const Feed = () => {
           
         </Typography>
 
-        {/* add video logic here once videos component created */}
-        <button onClick={testHandler} >press here</button>
+        {/* render videos component */}
+
+        <Videos videos={videos} />
 
       </Box>
 
