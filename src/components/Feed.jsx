@@ -9,10 +9,11 @@ const Feed = () => {
   // define state for selected category
   const [selectedCategory, setSelectedCategory] = useState("New");
 
+
   return (
 
     <Stack sx={{ 
-              // side scroll at md (900px) breakpoint
+              // responsive design - stack on small screens (less than 900px)
               flexDirection: { sx: "column", md: "row" } 
               }}>
 
@@ -38,7 +39,27 @@ const Feed = () => {
         </Typography>
 
       </Box>
- 
+
+{/* section to render video title and tiles */}
+
+      <Box p={2} sx={{ overflowY: "auto", height: "90vh", flex: 2 }}>
+
+        <Typography 
+                variant="h4" 
+                fontWeight="bold" 
+                mb={2} 
+                sx={{ color: "white" }}
+          >
+        {/* render video category title to the page */}
+
+          {selectedCategory} <span style={{ color: "#FC1503" }}>videos</span>
+          
+        </Typography>
+
+        {/* add video logic here once videos component created */}
+
+      </Box>
+
     </Stack>
   );
 };
