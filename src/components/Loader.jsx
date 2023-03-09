@@ -1,9 +1,23 @@
-import React from 'react'
+import React from 'react';
+import { Box, CircularProgress, Stack } from '@mui/material';
 
-const Loader = () => {
-  return (
-    <div>Loader</div>
-  )
-}
+const Loader = () =>  (
 
-export default Loader
+  <Box minHeight="95vh">
+
+    <Stack 
+        direction='row' j
+        ustifyContent='center' 
+        alignItems='center' 
+        height='80vh' 
+    >
+      
+      <CircularProgress />
+
+    </Stack>
+
+  </Box>
+
+);
+
+export default Loader;
