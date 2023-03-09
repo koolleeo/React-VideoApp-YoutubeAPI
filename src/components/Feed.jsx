@@ -13,14 +13,12 @@ const Feed = () => {
   // define state for selected videos (based on selected category)
   const [videos, setVideos] = useState(null);
 
-// :TODO: commented out to prevent API calls on refresh during development
+  useEffect(() => {
+    setVideos(null);
 
-  // useEffect(() => {
-  //   setVideos(null);
-
-  //   fetchFromAPI(`search?part=snippet&q=${selectedCategory}`)
-  //     .then((data) => setVideos(data.items))
-  //   }, [selectedCategory]);
+    fetchFromAPI(`search?part=snippet&q=${selectedCategory}`)
+      .then((data) => setVideos(data.items))
+    }, [selectedCategory]);
 
   return (
 
