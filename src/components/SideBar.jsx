@@ -44,4 +44,4 @@ const Categories = ({ selectedCategory, setSelectedCategory }) => (
   </Stack>
 );
 
-export default SideBar;
+export default Categories;
