@@ -4,16 +4,16 @@ import { Stack, Box } from "@mui/material";
 
 import { ChannelCard, Loader, VideoCard } from "./";
 
-const Videos = ({ videos }) => {
+const Videos = ({ videos, direction }) => {
 
   // check to make sure that videos array is not null
-  if(videos?.length) 
+  if(!videos?.length) return <Loader />;
   
   return (
 
 // flex container
     <Stack 
-          direction={"row"} 
+          direction={direction || "row"} 
           flexWrap="wrap" 
           justifyContent="start" 
           alignItems="start" 
