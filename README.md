@@ -42,6 +42,18 @@ I Want to be recommended similar or related videos
 
 ## Acceptance Criteria
 
+The web application must be fully responsive, to make allow the user to access the site on any device
+
+* When a user clicks on a category, video and channel suggestions will be rendered to the screen
+
+* When a user enters a search term into the search bar and submits, the video and channel suggestions will be rendered to the screen
+
+* When a user clicks on a video card, the user will be presented with a video player
+
+* When a user clicks on the creator title, the user will be taken to a channel profile page
+
+* When the user is taken to a channel profile page, videos from the creator will populate on the page
+
 ## Installation
 Steps that should be taken to install your project. 
 
