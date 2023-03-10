@@ -42,7 +42,7 @@ I Want to be recommended similar or related videos
 
 ## Acceptance Criteria
 
-The web application must be fully responsive, to make allow the user to access the site on any device
+The web application must be fully responsive, to allow the user to access the site on any device
 
 * When a user clicks on a category, video and channel suggestions will be rendered to the screen
 
