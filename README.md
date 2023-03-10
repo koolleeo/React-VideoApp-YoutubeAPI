@@ -36,7 +36,7 @@ Steps that should be taken to install your project.
 2. cd into folder using terminal on vscode
 3. ensure node.js and Yarn is installed - then type 'yarn'
 4. type 'Yarn dev' to start development server
-5. type 'Yarn build' to build project. 'Dist' directory will created
+5. type 'Yarn build' to build project. 'Dist' directory will be created
 
 ## Usage
 
