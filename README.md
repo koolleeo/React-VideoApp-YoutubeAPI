@@ -5,10 +5,14 @@
 ## Table of Contents
 
 >[Description](#description)\
+>[User Story](#user-story)\
+>[Acceptance Criteria](#acceptance-criteria)\
 >[Installation](#installation)\
 >[Usage](#usage)\
 >[License](#license)\
 >[Contributing](#contributing)\
+>[Link to the Repo](#link-to-the-repo)\
+>[wireframes and screenshots](#wireframes-of-prototype)\
 >[Questions](#questions)
 
 ## Description
@@ -61,7 +65,7 @@ This is curently a read only project
 ![image](https://user-images.githubusercontent.com/86853558/224379965-38a9f016-f4a9-4daf-b007-77859287e750.png)
 
 
-## Screenshot of the page (full-width & mobile version)
+## Screenshot of the page (full width & mobile version)
 
 Wide-screen view of the Home Page: <br/>
 
