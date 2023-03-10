@@ -9,7 +9,7 @@
 >[Usage](#usage)\
 >[License](#license)\
 >[Contributing](#contributing)\
->[Questions](#questions)
+>[Questions](#questions)\
 
 ## Description
 
