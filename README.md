@@ -17,6 +17,9 @@
 
 ## Description
 
+Create a web application that enables the user to search and view youtube videos, based on either user input or predefined popular categories.
+
+The user will be able to click on the results to view the video, and be able to view the youtube ‘channel’ if available.
 
 The technologies used in app development: ``React, Yarn, Vite, Material UI, CSS, rapidAPI and Netlify-CLI``.
 
@@ -24,7 +27,17 @@ The app has been deployed on ``Netlify`` platform.
 
 ## User Story
 ```
-​
+As a User
+I Want to be able to search for videos based on category, or user input
+
+As a User
+I Want to be able to watch the video within the app
+
+As a User
+I Want to be able to view a youtube ‘channel’, if available, and associated videos
+
+As a User
+I Want to be recommended similar or related videos
 ```
 
 ## Acceptance Criteria
