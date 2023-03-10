@@ -1,5 +1,16 @@
 # React Video App using Youtube rapidAPI
 
+![License](https://img.shields.io/badge/License-mit-brightgreen.svg)
+
+## Table of Contents
+
+>[Description](#description)\
+>[Installation](#installation)\
+>[Usage](#usage)\
+>[License](#license)\
+>[Contributing](#contributing)\
+>[Questions](#questions)
+
 ## Description
 
 
@@ -11,9 +22,29 @@ The app has been deployed on ``Netlify`` platform.
 ```
 ​
 ```
-## Functionality
 
+## Acceptance Criteria
 
+## Installation
+Steps that should be taken to install your project. 
+
+1. clone repository
+2. cd into folder using terminal on vscode
+3. ensure node.js and Yarn is installed - then type 'yarn'
+4. type 'Yarn dev' to start development server
+5. type 'Yarn build' to build project. 'Dist' directory will created
+
+## Usage
+
+To be used for educational purposes only
+
+## License
+
+This project uses the following license : MIT
+
+## Contributing
+
+This is curently a read only project
 
 ## Link to the Deployed Page
 [Live URL](https://fantastic-platypus-617252.netlify.app/)
@@ -51,4 +82,13 @@ Narrow/Mobile-screen view of the Home Page:<br/>
 
 ---
 
+## Questions?
+
+Contact me by email.
+
+[Contact Me](mailto:leigh.ally@gmail.com)
+
+Visit my GitHub page.
+
+[GitHub page](https://github.com/koolleeo/)
 
