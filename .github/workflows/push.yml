@@ -1,6 +1,4 @@
-# push.yml
-
-#  Name of workflow
+# Name of workflow
 name: Push workflow
 
 # When workflow is triggered
@@ -25,7 +23,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 16.x
-      # Run npm install and build on our code
+      # Run yarn install and build on our code
       - run: yarn
       - run: yarn build
       # Deploy to Netlify using our production secrets
@@ -35,6 +33,5 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         with:
-          publish-dir: ./dist
-          args: deploy --dir=build --prod
-          secrets: '["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'
+          entryPoint: build
+          args: deploy --prod
